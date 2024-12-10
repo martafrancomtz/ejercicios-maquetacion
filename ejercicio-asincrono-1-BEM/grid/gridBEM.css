@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +22,6 @@ body {
     align-items: center;
     padding: 15px 20px;
     background-color: #fff;
-    
 }
 
 .header__imagen2 img{
@@ -43,10 +41,9 @@ body {
     align-items:center;
     display: inline-block;
     height: 100%;
-    
     padding: 0px 31px;
- 
 }
+
 .menu a{
     text-decoration: none;
     padding: 0px 20px;
@@ -55,20 +52,14 @@ body {
     font-size: 12px;
     letter-spacing: 1px;
     color: #000000;
-
-
     gap: 20px;
     justify-content:center;
     align-items:center;
-   
     height: 100%;
-    
-    
-    
 }
+
 .menu a:hover {
     color:#77875b;
-    
 }
 
 .main-content{
@@ -92,10 +83,7 @@ body {
     "item9 item9 item10 item11 item12 item13"
     "item9 item9 item14 item15 item12 item16"
     "item17 item17 item18 item19 item20 item21";
-
 }
-
-
 
 .mosaic__item{
     width: 100%;
@@ -103,23 +91,18 @@ body {
     background-color: #fff;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 .mosaic__item:hover img{
     transform: translateY(-5px);
     transition: 0.8s;
-
 }
-
-
 
 .mosaic__item img {
     width: 100%;
     height: 108%;
     object-fit: cover;
 }
-
 
 .mosaic-item--1 { grid-area: item1; }
 .mosaic-item--2 { grid-area: item2; }
@@ -142,34 +125,6 @@ body {
 .mosaic-item--19 { grid-area: item19; }
 .mosaic-item--20 { grid-area: item20; }
 .mosaic-item--21 { grid-area: item21; }
-
-
-
-
-
-.content{
-    display: block;
-    margin-top: 50%;
-}
-
-.content__title h1{
-    text-align: center;
-}
-
-.content__text p{
-    text-align: center;
-    font-size: 15px;
-    color: #848484;
-
-
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
-
 
 .footer {
     text-align: center;
