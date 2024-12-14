@@ -1,0 +1,77 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #ececec;
+  color: #393939;
+  line-height: 1.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.acordeon {
+  width: 90%;
+  max-width: 20rem;
+  padding: 2rem;
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1rem;
+  background-color: #ececec;
+  box-shadow: 0.4rem 0.4rem 0.8rem #c9c9c9, -0.4rem -0.4rem 0.8rem #ffffff, inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.acordeon .seccion {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1rem;
+  background-color: #ececec;
+  box-shadow: 0.4rem 0.4rem 0.8rem #c9c9c9, -0.4rem -0.4rem 0.8rem #ffffff, inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.acordeon .h2 {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1rem;
+  background-color: #ececec;
+  box-shadow: 0.4rem 0.4rem 0.8rem #c9c9c9, -0.4rem -0.4rem 0.8rem #ffffff, inset 0 0 0 transparent, inset 0 0 0 transparent;
+  cursor: pointer;
+}
+
+.acordeon .h2:hover {
+  color: #393939;
+  transition: all 0.4s ease;
+  border-radius: 1rem;
+  background-color: #ececec;
+  box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem #c9c9c9, inset -0.4rem -0.4rem 0.8rem #ffffff;
+}
+
+.acordeon .texto {
+  height: 0;
+  padding: 0rem;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.acordeon .seccion.activo .texto {
+  height: 4rem;
+}
