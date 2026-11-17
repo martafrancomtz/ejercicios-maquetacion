@@ -10,8 +10,6 @@ La misma página, un mosaico de imágenes con cabecera y menú, maquetada dos ve
 - **BEM:** `header__imagen1`, `menu__item`, `mosaic__item`…
 - **SUIT CSS:** la misma estructura con la convención de SUIT.
 
-Validé las dos versiones con los validadores del W3C, sin errores, y las revisé con Lighthouse, WAVE (accesibilidad), Project Wallace y Yellow Lab Tools.
-
 ## 2. Componentes en JavaScript
 `ejercicio-asincrono-3/`
 
